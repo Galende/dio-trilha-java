@@ -23,7 +23,7 @@ public class ContaBanco {
         System.out.println("Olá senhor " +
                 nomeCliente + "! Obrigado por criar uma conta em nosso banco. Sua agência é " +
                 agencia + " e conta " +
-                conta + ", seu saldo " +
+                conta + ", seu saldo atual é de " +
                 saldo + " e já está disponível para saque!");
 
         sc.close();
