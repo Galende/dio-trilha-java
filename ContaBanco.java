@@ -20,11 +20,15 @@ public class ContaBanco {
         System.out.println("Por favor, digite seu saldo atual: ");
         double saldo = sc.nextDouble();
 
-        System.out.println("Olá senhor " +
-                nomeCliente + "! Obrigado por criar uma conta em nosso banco. Sua agência é " +
-                agencia + " e conta " +
-                conta + ", seu saldo atual é de " +
-                saldo + " e já está disponível para saque!");
+        System.out.println("Olá senhor "
+                + nomeCliente
+                + "! Obrigado por criar uma conta em nosso banco. Sua agência é "
+                + agencia 
+                + " e conta "
+                + conta
+                + ", seu saldo atual é de "
+                + saldo 
+                + " e já está disponível para saque!");
 
         sc.close();
     }
