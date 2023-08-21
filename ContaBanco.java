@@ -17,7 +17,7 @@ public class ContaBanco {
         System.out.println("Por favor, digite seu nome: ");
         String nomeCliente = sc.next();
 
-        System.out.println("Qual é o seu saldo?");
+        System.out.println("Por favor, digite seu saldo atual: ");
         double saldo = sc.nextDouble();
 
         System.out.println("Olá senhor " +
