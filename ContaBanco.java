@@ -10,6 +10,7 @@ public class ContaBanco {
 
         System.out.println("Por favor, digite o número da sua conta: ");
         int conta = sc.nextInt();
+        sc.nextLine();
 
         System.out.println("Por favor, digite o número da sua agência: ");
         String agencia = sc.next();
