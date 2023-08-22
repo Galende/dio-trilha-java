@@ -12,12 +12,13 @@ public class ContaBanco {
 
         System.out.println("Por favor, digite o número da sua conta: ");
         int conta = sc.nextInt();
+        sc.nextLine(); // Consumir a nova linha pendente
 
-        System.out.println("Por favor, digite o número da sua agência: ");
-        String agencia = sc.next();
+        System.out.println("Por favor, digite o número da sua agência:");
+        String agencia = sc.nextLine();
 
-        System.out.println("Por favor, digite seu nome: ");
-        String cliente = sc.next();
+        System.out.println("Por favor, digite seu nome:");
+        String cliente = sc.nextLine();
 
         System.out.println("Por favor, digite seu saldo atual: ");
         double saldo = sc.nextDouble();
