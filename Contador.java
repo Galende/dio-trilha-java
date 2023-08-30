@@ -1,4 +1,4 @@
-package udemy;
+package santanderJava;
 
 import java.util.Scanner;
 public class Contador {

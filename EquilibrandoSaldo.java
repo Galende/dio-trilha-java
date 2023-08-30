@@ -1,8 +1,8 @@
-package udemy;
+package santanderJava;
 
 import java.util.Scanner;
 
-public class CalculoDeSaldo {
+public class EquilibrandoSaldo {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
